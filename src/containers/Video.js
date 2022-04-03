@@ -1,12 +1,10 @@
 import React, {useState} from "react";
-import { useLocation, useHistory } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 import Comment from "../components/Comment";
 
 
 
 function Video(){
-    const history = useHistory();
-    history.go(0);
     
     
     const location = useLocation();
@@ -29,6 +27,8 @@ function Video(){
             text:""
         });
     }
+
+   
 
 
     
