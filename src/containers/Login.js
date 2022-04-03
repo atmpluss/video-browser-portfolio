@@ -72,7 +72,9 @@ function Login({setVerification}){
                 
             </form>
 
-            <footer>username=admin and password=admin</footer>
+            <p style={{color:"red", fontSize:"20px" }}>username=admin &amp; password=admin</p>
+
+            <footer>ALL VIDEOS FROM <a href="https://www.youtube.com/c/muscleandstrength">Muscle &amp; Strength</a></footer>
 
             
            
