@@ -18,8 +18,8 @@ function App() {
     {
       !verification? (<Login  setVerification={setVerification} />):(
       <Routes>
-        <Route path="/" element={<Home  />} />
-        <Route path="/video" element={<Video />} />
+        <Route path="/video-browser-portfolio" element={<Home  />} />
+        <Route path="/video-browser-portfolio/video" element={<Video />} />
      </Routes>
 
       )

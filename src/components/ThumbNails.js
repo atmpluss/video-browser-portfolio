@@ -9,7 +9,7 @@ function ThumbNails({filteredVideos}) {
         
         
             {filteredVideos.map(video=>{
-            return  <Link to="/video" key={video.id} state={{ iframe:video.iframe}} style={{textDecoration:"none"}}><ThumbNail  video={video}  /></Link>;
+            return  <Link to="/video-browser-portfolio/video" key={video.id} state={{ iframe:video.iframe}} style={{textDecoration:"none"}}><ThumbNail  video={video}  /></Link>;
             })}
         </div>
           
