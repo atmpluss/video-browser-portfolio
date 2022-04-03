@@ -5,7 +5,9 @@ import Comment from "../components/Comment";
 
 
 function Video(){
-    const navigate = useNavigate();
+    const history = useHistory();
+    history.go(0);
+    
     
     const location = useLocation();
     const { iframe } = location.state;
