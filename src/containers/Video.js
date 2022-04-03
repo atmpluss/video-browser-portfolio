@@ -8,8 +8,6 @@ import Comment from "../components/Comment";
 function Video(){
     
     
-
-   
     
     const location = useLocation();
     const { iframe } = location.state;
