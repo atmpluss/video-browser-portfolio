@@ -41,11 +41,11 @@ function Comment({setNewComment, onClick, comments, newComment}){
             </div>
 
             <div>   
-                <button type="submit" className="w-10 ma3" >Add</button>
-                <button onClick={toggleHandle} className="w-10  ">{toggle? "Hide Comments": "Show comments"}</button>
+                <button type="submit" className="btn w-10 ma3" >Add</button>
+                <button onClick={toggleHandle} className=" btn w-10  ">{toggle? "Hide Comments": "Show comments"}</button>
             </div>
 
-           
+            
             </form>
 
             <div className="commentContainer ">
