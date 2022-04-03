@@ -1,0 +1,47 @@
+ .App {
+  /* text-align: center; */
+  font-family: "Poppins", sans-serif;
+}
+
+
+.ThumbNail-item h3{
+  font-size: 1.1rem;
+  margin: auto;
+  color:black;
+  padding-top: 40px;
+  margin-right: 0;
+
+}
+
+
+.ThumbNail-item{
+  margin: 20px 0;
+}
+.ThumbNail-item:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+} 
+.search{
+  justify-content: center;
+  padding: 0rem;
+  margin: 0;
+  font-size: 0.8rem;
+  background: white;
+}
+
+
+.search input{
+  margin: 10px;
+  width: 50%;
+  border-radius: 50px;
+  font-size: 1rem;
+}
+.search select{
+  width: 80px;
+  height:50px;
+
+}
+
+.video{
+  margin: auto;
+}

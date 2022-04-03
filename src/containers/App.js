@@ -1,0 +1,32 @@
+import React, {useState} from 'react';
+import './App.css';
+import Home from "./Home.js"
+import Video from "./Video.js"
+import Login from './Login';
+import {Routes,Route} from 'react-router-dom';
+
+
+
+
+
+function App() {
+  
+  const[verification, setVerification]=useState(false);
+
+  return (
+    <div className="App">
+    {
+      !verification? (<Login  setVerification={setVerification} />):(
+      <Routes>
+        <Route path="/" element={<Home  />} />
+        <Route path="/video" element={<Video />} />
+     </Routes>
+
+      )
+    }
+       
+    </div>
+  );
+}
+
+export default App;
