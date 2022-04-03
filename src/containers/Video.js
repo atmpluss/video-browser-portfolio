@@ -1,5 +1,5 @@
-import React, {useState, useHistory} from "react";
-import { useLocation, useNavigate } from 'react-router-dom'
+import React, {useState} from "react";
+import { useLocation, useHistory } from 'react-router-dom'
 import Comment from "../components/Comment";
 
 
