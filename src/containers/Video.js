@@ -1,10 +1,12 @@
-import React, {useState} from "react";
-import { useLocation } from 'react-router-dom'
+import React, {useState, useHistory} from "react";
+import { useLocation, useNavigate } from 'react-router-dom'
 import Comment from "../components/Comment";
 
 
 
 function Video(){
+    const navigate = useNavigate();
+    
     const location = useLocation();
     const { iframe } = location.state;
 
