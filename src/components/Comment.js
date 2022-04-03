@@ -41,8 +41,8 @@ function Comment({setNewComment, onClick, comments, newComment}){
             </div>
 
             <div>   
-                <button type="submit" className="btn btn-primary " >Add</button>
-                <button onClick={toggleHandle} className=" btn btn-primary ">{toggle? "Hide Comments": "Show comments"}</button>
+                <button type="submit" className="btn btn-outline-dark " >Add</button>
+                <button onClick={toggleHandle} className=" btn btn-outline-dark ">{toggle? "Hide Comments": "Show comments"}</button>
             </div>
 
             
