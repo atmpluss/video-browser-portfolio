@@ -22,6 +22,7 @@ function App() {
       <Routes>
         <Route path="/video-browser-portfolio" element={<Home  />} />
         <Route path="/video-browser-portfolio/video" element={<Video />} />
+        <Route path="*" component={<Home  />} />
      </Routes>
 
       )
